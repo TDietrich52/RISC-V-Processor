@@ -1,5 +1,5 @@
 
-module Lab5(
+module riscv_top_module(
     input CLK100,           // 100 MHz clock input
     output [9:0] LED,       // RGB1, RGB0, LED 9..0 placed from left to right
     output [2:0] RGB0,      
